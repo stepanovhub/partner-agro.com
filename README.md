@@ -1,19 +1,17 @@
-## Welcome to GitHub Pages
+# О КОМПАНИИ
 
-You can use the [editor on GitHub](https://github.com/stepanovhub/partner-agro.com/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Партнер-агро – это семейная компания, основанная в 1997 году в г. Брянск, Россия. Целю нашего бизнеса является равномерное, постепенное развитие, с соблюдением законов рынка и хорошей деловой практики. Наше стремление относится к обязательствам хозяйственно и профессионально к клиентам. Мы делаем все , что бы остаться узнаваемыми на рынке, для нас важно качество, а не количество продукции и чтобы наш клиент всегда был доволен результатами нашей работы.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+# Экспорт
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Импорт
+
+# Оформление таможенной документации
 
 - Bulleted
 - List
