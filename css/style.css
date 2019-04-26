@@ -1786,3 +1786,19 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+
+/* new */
+.product-img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 22px 0px;
+}
+.team-member {
+    background-color: #fff;
+    border-color: #4b4;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 24px 0px;
+}
