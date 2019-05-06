@@ -1806,3 +1806,11 @@ h1, h2, h3, h4, h5,
 .text-primary {
     color: #e0a549!important;
 }
+
+.markup {
+    color: #fff; 
+    background-color: #775038; 
+    border-radius: 10px; 
+    padding: 10px 10px 1px 10px;
+    margin: 0px 0px 10px 0px;
+}
