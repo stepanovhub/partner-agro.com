@@ -55,10 +55,10 @@
                         <nav class="site-navigation position-relative text-right" role="navigation">
 
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                                <li><a href="#products" class="nav-link">Продукция</a></li>
-                                <li><a href="#services" class="nav-link">Услуги</a></li>
-                                <li><a href="#plus" class="nav-link">Преимущества</a></li>
-                                <li><a href="#contact" class="nav-link">Контакты</a></li>
+                                <li><a href="#products" class="nav-link" onclick="navClick();">Продукция</a></li>
+                                <li><a href="#services" class="nav-link" onclick="navClick();">Услуги</a></li>
+                                <li><a href="#plus" class="nav-link" onclick="navClick();">Преимущества</a></li>
+                                <li><a href="#contact" class="nav-link" onclick="navClick();">Контакты</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -87,25 +87,11 @@
                     </div>
 
                 </div>
-            </div>
+            </div>            
         </div>
-
-        <!--
-        <div class="site-section cta-big-image" id="about-section">
-            <div class="container">
-
-                <img src="images/img_big_1.jpg" alt="Image" class="img-fluid">
-                <div class="img-box">
-                    <span class="sub-title">Creative Skills</span>
-                    <h2>Create Your Own Web Masterpiece</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eveniet, voluptatem harum provident iusto modi explicabo! Aperiam velit reiciendis, eius impedit ea necessitatibus facilis nobis ipsum, architecto cum, doloribus nesciunt.</p>
-                    <p><a href="#" class="btn btn-outline-dark">Read More</a></p>
-                </div>
-            </div>
-        </div>
--->
-
-        <section class="site-section border-bottom" id="products">
+        
+        <section class="site-section border-bottom">
+            <div class="anchor" id="products"></div>
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-md-12 text-left">
@@ -123,9 +109,6 @@
                             <div class="product-img" style="background-image: url(img/products/zhukovskiy-ranniy.jpg)"></div>
                             <div class="p-3">
                                 <h3>Жуковский ранний</h3>
-                                <!--
-                                <p>Сорт Жуковский ранний относится к очень ранним сортам картофеля. У него высокий, стабильный урожай в разных климатических зонах и различных почвах. Цветёт сорт Жуковский сильно, красно-фиолетовыми цветами. Куст средней высоты с многочисленным количеством побегов. Клубни с розовой кожицей, овальной формы. Отличные вкусовые качества (сорт картофеля пригоден для приготовления чипсов).</p>
--->
                             </div>
                         </div>
                     </div>
@@ -134,8 +117,6 @@
                             <div class="product-img" style="background-image: url(img/products/gala.jpg)"></div>
                             <div class="p-3">
                                 <h3>Гала</h3>
-                                <!--                                <p>Ранний сорт – Гала. Этот сорт столового назначения, немецкой селекции.  Форма клубней овальная, круглая, ровная, хорошо подходит для механической чистки. Очень вынослив сорт к болезням и вирусам. Обладает хорошим вкусом. Хорошо хранится и транспортируется. Подходит для большинства регионов нашей страны.</p>
--->
                             </div>
                         </div>
                     </div>
@@ -144,9 +125,6 @@
                             <div class="product-img" style="background-image: url(img/products/red-skarlet.jpg)"></div>
                             <div class="p-3">
                                 <h3>Ред Скарлет</h3>
-                                <!--                                <p>Раннеспелый сорт. 
-Основное преимущество этого сорта: не темнеет при повреждении поверхности, не меняет цвет после варки. Картофель «Ред Скарлет» легко переносит засушливое лето. Пользуется большим спросом и популярностью среди картофелеводов. Красивый товарный вид и хороший вкус. Неплохая устойчивость к нематоде и раку. Хорошо хранится и легко переносит длительную транспортировку. При постоянной посадке своих семян — долго сохраняет сортовые качества.</p>
--->
                             </div>
                         </div>
                     </div>
@@ -155,8 +133,6 @@
                             <div class="product-img" style="background-image: url(img/products/briz.jpg)"></div>
                             <div class="p-3">
                                 <h3>Бриз</h3>
-                                <!--                                <p>Белорусский картофель Бриз относится к экземплярам среднераннего созревания. Характеризуется, как высокоурожайный (до 600 ц/га), лежкий, устойчивый к ударам и большинству распространенных заболеваний, сорт. Исключением является золотистая цистообразующая нематода. Среднерослые, полупрямостоячие растения цветут белыми соцветиями. Крупные овальные клубни покрыты слабосетчатой желтой кожурой. Желтоватая мякоть почти не разваривается и имеет хороший вкус.</p>
--->
                             </div>
                         </div>
                     </div>
@@ -274,46 +250,12 @@
             </div>
         </section>
 
-
-        <!--        <section class="site-section">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-6">
-
-                        <div class="owl-carousel slide-one-item-alt">
-                            <img src="images/slide_1.jpg" alt="Image" class="img-fluid">
-                            <img src="images/slide_2.jpg" alt="Image" class="img-fluid">
-                            <img src="images/slide_3.jpg" alt="Image" class="img-fluid">
-                            <img src="images/slide_4.jpg" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="custom-direction">
-                            <a href="#" class="custom-prev">Prev</a><a href="#" class="custom-next">Next</a>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-5 ml-auto">
-
-                        <h2 class="section-title mb-3">We Are The Best Consulting Agency</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
-
-                        <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
-
-                    </div>
-                </div>
-            </div>
-        </section>
--->
-
-        <section class="site-section" id="services">
+        <section class="site-section">
+            <div class="anchor" id="services"></div>
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12">
                         <h2 class="section-title mb-3">Услуги</h2>
-                        <!--
-                        <h2>Таможенное оформление фруктов и овощей.</h2>
-                        <h2>Услуги сертификации товаров.</h2>-->
                         <h2>Услуги таможенного брокера в Брянске</h2>
                         <p>
                              Это комплекс мероприятий, выполняемых участниками внешнеэкономической деятельности (ВЭД) с целью перемещения товаров и транспортных средств через таможенную границу. В узкопрофессиональной среде под данным термином подразумеваются следующие понятия: "таможенная очистка", "растаможка", "затаможка", "декларирование", "оформление импорта или экспорта". Так же защита интересов заказчика в вопросах таможенного оформления грузов на пограничном пункте контроля. Обязанности и сфера влияния представителя на процесс очистки, фиксируется в договоре установленного образца. Специфика работы таможенных органов постоянно меняется, поэтому следует  учитывать при необходимости пересечения пограничного пункта.
@@ -414,7 +356,9 @@
                         <ul>
                             <li>оплата ввозного НДС
                             </li>
-                            <li>оптала пошлины (если есть)
+                            <li>оплата пошлины (если есть)
+                            </li>
+                            <li>оплата брокерских услуг
                             </li>
                             <li>оплата лаботратории
                             </li>
@@ -439,7 +383,8 @@
 
 
 
-        <section class="site-section border-bottom bg-light" id="plus">
+        <section class="site-section border-bottom bg-light">
+            <div class="anchor" id="plus"></div>
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center">
@@ -531,176 +476,9 @@
                 </div>
             </div>
         </section>
-<!--
-        <section class="site-section testimonial-wrap" id="testimonials-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center">
-                        <h2 class="section-title mb-3">Testimonials</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="slide-one-item home-slider owl-carousel">
-                <div>
-                    <div class="testimonial">
 
-                        <blockquote class="mb-5">
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-
-                        <figure class="mb-4 d-flex align-items-center justify-content-center">
-                            <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                            <p>John Smith</p>
-                        </figure>
-                    </div>
-                </div>
-                <div>
-                    <div class="testimonial">
-
-                        <blockquote class="mb-5">
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-                        <figure class="mb-4 d-flex align-items-center justify-content-center">
-                            <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                            <p>Christine Aguilar</p>
-                        </figure>
-
-                    </div>
-                </div>
-
-                <div>
-                    <div class="testimonial">
-
-                        <blockquote class="mb-5">
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-                        <figure class="mb-4 d-flex align-items-center justify-content-center">
-                            <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                            <p>Robert Spears</p>
-                        </figure>
-
-
-                    </div>
-                </div>
-
-                <div>
-                    <div class="testimonial">
-
-                        <blockquote class="mb-5">
-                            <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                        </blockquote>
-                        <figure class="mb-4 d-flex align-items-center justify-content-center">
-                            <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                            <p>Bruce Rogers</p>
-                        </figure>
-
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="site-section" id="about-section">
-            <div class="container">
-                <div class="row mb-5">
-
-                    <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
-
-
-                        <div class="owl-carousel slide-one-item-alt">
-                            <img src="images/slide_1.jpg" alt="Image" class="img-fluid">
-                            <img src="images/slide_2.jpg" alt="Image" class="img-fluid">
-                            <img src="images/slide_3.jpg" alt="Image" class="img-fluid">
-                            <img src="images/slide_4.jpg" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="custom-direction">
-                            <a href="#" class="custom-prev">Prev</a><a href="#" class="custom-next">Next</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 order-md-1" data-aos="fade">
-
-                        <div class="row">
-
-
-                            <div class="col-12 mb-4">
-                                <h2 class="section-title mb-3">Consulting Agency It's Best</h2>
-                            </div>
-                            <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                                <div class="unit-4">
-                                    <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-adb"></span></div>
-                                    <div>
-                                        <h3>Web &amp; Mobile Specialties</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                                        <p class="mb-0"><a href="#">Learn More</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                                <div class="unit-4">
-                                    <div class="unit-4-icon mr-4 mb-3"><span class="text-primary icon-assignment"></span></div>
-                                    <div>
-                                        <h3>Intuitive Thinkers</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                                        <p class="mb-0"><a href="#">Learn More</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-
-
-        <section class="site-section" id="blog-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-12 text-center">
-                        <h3 class="section-sub-title">Blog</h3>
-                        <h2 class="section-title mb-3">Our Blog Posts</h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="h-entry">
-                            <a href="single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                            <h2 class="font-size-regular"><a href="single.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-                            <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                            <p><a href="single.html">Continue Reading...</a></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="h-entry">
-                            <a href="single.html"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-                            <h2 class="font-size-regular"><a href="single.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-                            <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                            <p><a href="single.html">Continue Reading...</a></p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                        <div class="h-entry">
-                            <a href="single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                            <h2 class="font-size-regular"><a href="single.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h2>
-                            <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="single.html">News</a></div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                            <p><a href="single.html">Continue Reading...</a></p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-
---> 
-        <section class="site-section bg-light" id="contact">
+        <section class="site-section bg-light">
+            <div class="anchor" id="contact"></div>
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center">
@@ -708,8 +486,20 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-md-7">
+
+                        <div class="p-4 mb-3 bg-white">
+                            <p class="mb-0 font-weight-bold">Телефон</p>
+                            <p class="mb-0"><a href="tel:+79803080088">+7 980 308 00 88</a></p>
+                            <p class="mb-0 font-weight-bold">Email</p>
+                            <p class="mb-0"><a href="mailto:partneragro32@yandex.ru?subject=Заявка с сайта">partneragro32@yandex.ru</a></p>
+                            <p class="mb-0 font-weight-bold">Адрес</p>
+                            <p class="mb-4">РФ, г. Брянск, ул. Фрунзе, д. 64а</p>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9c26d1e3531bad5348066e25702f571d1a62d5f1affc4a2f9c5e0845ed8ab886&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+
+                    </div>
                     <div class="col-md-5 mb-5">
-<!--                        <form action="http://formspree.io/stepanovhub@gmail.com" method="POST" class="p-5 bg-white" id="contact-form">-->
                         <form action="#" class="p-5 bg-white">
 
                             <h2 class="h4 text-black mb-5">Оставьте свои контакты и мы с вами свяжемся.</h2>
@@ -742,19 +532,6 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
-                    <div class="col-md-7">
-
-                        <div class="p-4 mb-3 bg-white">
-                            <p class="mb-0 font-weight-bold">Телефон</p>
-                            <p class="mb-0"><a href="tel:+79803080088">+7 980 308 00 88</a></p>
-                            <p class="mb-0 font-weight-bold">Email</p>
-                            <p class="mb-0"><a href="mailto:partneragro32@yandex.ru?subject=Заявка с сайта">partneragro32@yandex.ru</a></p>
-                            <p class="mb-0 font-weight-bold">Адрес</p>
-                            <p class="mb-4">РФ, г. Брянск, ул. Фрунзе, д. 64а</p>
-<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9c26d1e3531bad5348066e25702f571d1a62d5f1affc4a2f9c5e0845ed8ab886&amp;width=100%25&amp;height=300&amp;lang=ru_RU&amp;scroll=true"></script>
-                        </div>
-
                     </div>
                 </div>
             </div>

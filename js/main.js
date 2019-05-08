@@ -4,10 +4,13 @@
      once: true
  });
 
+function navClick(){
+         $(".offcanvas-menu").removeClass("offcanvas-menu");    
+}
  jQuery(document).ready(function ($) {
 
      "use strict";
-
+     
      $("#btn-lead").click(function () {
          if($("#btn-lead").hasClass("disabled")){
              return;
